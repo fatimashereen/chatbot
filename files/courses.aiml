@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>courses</pattern>
+        <template>artificial intelligence courses for beginner
+        <button>
+            
+                <text>Top courses of artficial intelligence</text>
+                <postback>best courses</postback>
+            </button>
+            <button>
+                <text>Help me picking a course</text>
+                <postback>Find a course</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>best courses</pattern>
+        <template>There are 2 best Artificial intelligence courses
+          <button>
+              <text>Introduction to Artificial Intelligence</text>
+              <postback>artificial intelligence</postback>
+          </button>
+          <button>
+              <text>AI Foundation for Everyone</text>
+              <postback>ai foundation for everyone</postback>
+          </button>
+          </template>
+          
+    </category>
+    
+    <category>
+        <pattern>Find a course</pattern>
+        <template>I' m gonna ask some question related to AI courses</template>
+        <button>
+            <text>Yes</text>
+            <postback>AI question</postback>
+        </button>
+            
+    </category>
+    <category>
+        <pattern>AI question</pattern>
+        <template>Do you want to study AI courses</template>
+    </category>
+   
+    
+    
+	<!-- insert your AIML categories here -->
+</aiml>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>start</pattern>
+	    <template>how may i help u</template>
+	    </category>
+	   <category>
+	       <pattern>start</pattern>
+	       <template>
+	           <button>
+	               <text>coursera course</text>
+	               <url>https://www.coursera.org/learn/python?
+	               <button>
+	                   <text>click here for more courses</text>
+	                   <postback>Introduction to artificial Intelligence</postback>
+                   </button>
+	               </url>
+               </button>
+	       </template>
+       </category>
+	    
+    
+</aiml>

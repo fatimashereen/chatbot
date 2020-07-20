@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>AI Foundation for Everyone</pattern>
+        <template>This specialization is designed for those with little or no background in AI, whether you have technology background or not, and does not require any programming skills. It is designed to give you a firm understanding of what is AI, its applications and use cases across various industries.
+         <br></br><br></br>  
+         <link>
+             <text>Click link below more about AI Foundation</text>
+             <url>https://www.coursera.org/specializations/ai-foundations-for-everyone</url>
+         </link>
+        </template>
+    </category>
+        
+	<!-- insert your AIML categories here -->
+</aiml>
